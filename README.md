@@ -17,7 +17,7 @@ export ARK_API_KEY="xxxxxxx"
 
 1. 克隆项目到本地：
    ```bash
-   git clone <项目地址>
+   git clone https://github.com/atChine/ai-backend.git
    cd ai-backend
    ```
 
