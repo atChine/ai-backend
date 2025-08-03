@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  ai-backend:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - ARK_API_KEY=${ARK_API_KEY}
+    restart: unless-stopped

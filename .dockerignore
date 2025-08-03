@@ -1,0 +1,32 @@
+# 编译产物
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# 构建输出
+ai-backend
+bin/
+
+# 测试输出
+cover.out
+coverage.txt
+
+# IDE 配置
+.vscode/
+.idea/
+
+# Git 目录
+.git/
+
+# 环境变量文件
+.env
+
+# Docker 相关（避免递归构建）
+docker-compose.yml
+Dockerfile
+.dockerignore
+
+# 日志文件
+*.log
